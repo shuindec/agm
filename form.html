@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel = "stylesheet" type="text/css" href="style1.css"/>
+    </head>
+    <body>
+        <div id = "navbar">
+            <p style="text-align: center; font-size: large;">
+                <a href="index.html">Home</a>
+                <a href = "campus.html">La Trobe University</a>
+                <a href="facilities.html">Facilities</a>
+                <a href = "travel.html">Local Entertainments</a>
+                <a href="map.html">Map and Parking</a>
+            </p>
+        </div>
+        <div style="background-color: gray; color:white; padding: 10px; font-family:sans-serif;"  >
+            <h1 style="margin-left: 50px; color: aliceblue;">Registration Form</h1>
+        </div>
+        <div style="background-color:white"><p></p></div>
+        <div style="background-color:lightgray;padding: 20px;font-family:Verdana, Geneva, Tahoma, sans-serif;">
+            <form style="margin: 10px;">
+                <p>Tittle<BR>
+                    <input style="margin-left: 200px;width: 10cm;height: 1cm;" list="tittle" name="tittle">
+                    <datalist id="tittle">
+                        <option value="Mr">
+                        <option value="Mrs">
+                        <option value="Miss/Ms">
+                    </datalist>
+                        
+                </p>
+                <p><label for = "firstname">First name</label><br>  
+                    <input style="margin-left: 200px;width: 10cm; height: 1cm;" type="text" name= "firstname"><BR></p>
+                <p>Last name<BR><input style="margin-left: 200px;width: 10cm;height: 1cm;" type="text" name="lastname"></p>
+                <p>Birth Date<BR><input style="width: 10cm;margin-left: 200px;height: 1cm;" type="datetime", name="birthday"><p style="margin-left: 200px;">MM/DD/YYYY</p> </p>
+                <p>Email<BR><input style="margin-left: 200px;width: 10cm;height: 1cm;" type="email", name="mail"></p>  
+                <p>Phone<BR><input style="margin-left: 200px;width: 10cm;height: 1cm;" type="number", name="phone"></p>
+                <p>Position<BR><input style="margin-left: 200px;width: 10cm;height: 1cm;" type="text", name="company"></p>
+                <p>Any question for us<br><input style="margin-left: 200px;width: 10cm;height: 5cm;" type="text", name="comment"></p>
+                
+                <input type="submit">
+            </form>
+            <br>
+
+            <p><i>Thank you for your attendance. The official invitation letter will be sent to
+                your email in a couple of hours.<BR>
+                    <br>
+                We looking forward to meeting with you at AGM this year!
+            </i></p>
+        </div>
+        
+    </body>
+</html>
